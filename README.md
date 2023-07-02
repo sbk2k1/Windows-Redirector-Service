@@ -1,6 +1,6 @@
 # URL Shortener with Node.js, Express, Apache, and MongoDB
 
-This project is a URL shortener application built with Node.js, Express.js, Apache, and MongoDB. It allows you to create custom word/hyphenated word mappings to websites, and automatically redirects the browser to the corresponding URL when the custom word is entered.
+This project is a URL shortener application built with Node.js, Express.js, Apache, and MongoDB. It allows you to create custom word/hyphenated word mappings to websites and automatically redirects the browser to the corresponding URL when the custom word is entered.
 
 ## Prerequisites
 
@@ -29,11 +29,11 @@ Before running the application, make sure you have the following dependencies in
 
 ## Apache Configuration
 
-- Install and configure Apache web server on your machine. Refer to the Apache documentation for detailed instructions.
+- Install and configure the Apache web server on your machine. Refer to the Apache documentation for detailed instructions.
 
 - Edit the Apache configuration file (httpd.conf) and enable the necessary modules, including mod_rewrite and mod_proxy. Make sure the virtual host configuration is set up    properly to allow URL rewriting and proxying.
 
-- estart the Apache server to apply the changes.
+- Restart the Apache server to apply the changes.
 
 
 ## Running the Application
@@ -57,7 +57,7 @@ Before running the application, make sure you have the following dependencies in
 
 ## Host File Edit Access
 
-In order for the server to modify the hosts file, make sure to provide write access to the file. On Windows, you can do this by right-clicking the hosts file and selecting "Properties". Then, go to the "Security" tab and add write permissions for the appropriate user or group.
+In order for the server to modify the "hosts" file, make sure to provide write access to the file. On Windows, you can do this by right-clicking the hosts file and selecting "Properties". Then, go to the "Security" tab and add write permissions for the appropriate user or group.
 
 ## Windows Service Setup
 - Install the node-windows package globally:
