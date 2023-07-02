@@ -31,8 +31,8 @@ const wordSchema = new mongoose.Schema({
 const Word = mongoose.model('Word', wordSchema);
 
 // Specify the path to the Apache configuration files
-const vhostsFilePath = '../Apache24/conf/extra/httpd-vhosts.conf';
-const hostsFilePath = '../Windows/System32/drivers/etc/hosts';
+const vhostsFilePath = '../insert/path/to/httpd-vhosts.conf';
+const hostsFilePath = '../insert/path/to/Windows/System32/drivers/etc/hosts';
 
 // Create Express app
 const app = express();
