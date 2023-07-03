@@ -39,7 +39,7 @@ Before running the application, make sure you have the following dependencies in
 
 - Edit the Apache configuration file (httpd.conf) and enable the necessary modules, including mod_rewrite and mod_proxy. Make sure the virtual host configuration is set up    properly to allow URL rewriting and proxying.
 
-- estart the Apache server to apply the changes.
+- Eestart the Apache server to apply the changes.
 
 
 ## Testing
