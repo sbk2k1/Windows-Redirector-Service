@@ -22,11 +22,6 @@ Before running the application, make sure you have the following dependencies in
    ```shell
       cd url-shortener
 
-- Navigate to the project directory:
-
-   ```shell
-      cd url-shortener
-
 ## Apache Configuration
 
 - Install and configure the Apache web server on your machine. Refer to the Apache documentation for detailed instructions.
